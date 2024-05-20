@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+  left: 80rem;
+  background-color: transparent;
+  z-index: var(--z-fixed);
+}
+
+.header a {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.header a:hover {
+  color: #e6542c;
+}
