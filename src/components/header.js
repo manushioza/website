@@ -1,9 +1,9 @@
-import styles from "../components/header.css";
+import styles from "../components/header.module.css";
 
 export default function Header() {
   return (
     <main>
-      <nav className="header">
+      <nav className={styles.header}>
         <a className={styles.links} href="#intro">
           About me
         </a>
